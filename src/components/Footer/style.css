@@ -1,0 +1,69 @@
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.footer-head {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+}
+
+.contact {
+    width: 300px;
+}
+
+.footer-inform-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+    width: 225px;
+    padding-top: 24px;
+}
+
+.lets-stay-block {
+    width: 370px;
+}
+
+.email {
+    padding-top: 24px;
+}
+
+.email input {
+    width: 345px;
+    height: 48px;
+    padding-left: 19px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.footer-text {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.copyright {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 0.6px;
+}
+
+.privacy {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 0.6px;
+}

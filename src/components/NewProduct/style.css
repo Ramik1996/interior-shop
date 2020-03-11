@@ -1,0 +1,42 @@
+.new-product {
+  margin-top: 120px;
+  margin-bottom: 90px; 
+}
+.header-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+}
+
+.category-list {
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  color: #6c6c6c;
+  border-bottom: 1px solid transparent;
+}
+
+.category-list:hover {
+  border-bottom: 1px solid black;
+  color: #212121;
+}
+
+.explore-all {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  padding-top: 18px;
+}
+
+.explore-all:hover {
+  color: #212121;
+}

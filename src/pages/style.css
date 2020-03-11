@@ -1,0 +1,10 @@
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    border: 1px solid grey 
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}

@@ -1,0 +1,36 @@
+.exclusive-all {
+    display: flex;
+}
+
+.exclusive-product {
+    width: 683px;
+    height: 683px;
+}
+
+.exclusive-text {
+    margin-top: 228px;
+    margin-left: 50px;
+}
+
+.exclusive-head {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.exclusive-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #212121;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.exclusive-description {
+    width: 374px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-bottom: 34px;
+}
