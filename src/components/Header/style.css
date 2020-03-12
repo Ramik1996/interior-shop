@@ -1,32 +1,12 @@
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.header {
-    padding-top: 63px;
-    position: absolute;
-    width: 1170px;
-}
-
-.menu {
-    float: right;
-}
-
-.menu-list {
-    float: left;
-}
-
-.menu-link {
-    color: #8c8c8c;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
-    padding: 10px 13px;
-    text-transform: uppercase;
-}
-
-.menu-link:hover {
-    color: #212121;
+.name-head {
+  padding: 260px 0 56px 101px;
+  font-family: Montserrat;
+  font-size: 62px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.16;
+  letter-spacing: normal;
+  text-align: left;
+  color: #212121;
 }

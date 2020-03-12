@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Header from '../components/Header/Header';
+import Menu from '../components/Menu/Menu';
 import Slider from '../components/Slider/Slider';
 import NewProduct from '../components/NewProduct/NewProduct';
 import ExclusiveContainer from '../containers/ExlusiveProduct/ExclusiveContainer';
@@ -11,7 +11,7 @@ import CategoryComponent from '../components/CategoryProducts/CategoryComponent'
 function Main() {
   return (
     <div className="container">
-      <Header />
+      <Menu />
       <Slider
         backgroundImg="/img/slider-img.jpg"
         name="trending"

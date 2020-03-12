@@ -1,0 +1,54 @@
+.contact-information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.contact-card {
+  border: 1px solid #9c9c9c;
+  text-align: center;
+  width: 370px;
+  height: 370px;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  padding-top: 48px;
+}
+
+.state {
+  font-family: Montserrat;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: #212121;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.title {
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6c6c6c;
+  padding-top: 20px;
+}
+
+.information {
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #212121;
+}
+
+.img-gps {
+  width: 40px;
+  height: 50px;
+}
