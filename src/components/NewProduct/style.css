@@ -1,6 +1,6 @@
 .new-product {
-  margin-top: 120px;
-  margin-bottom: 90px; 
+  padding-top: 120px;
+  background-color: #ffffff;
 }
 .header-product {
   display: flex;

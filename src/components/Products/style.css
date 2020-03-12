@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 72px;
+    padding-top: 72px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
 }
 
 .new-product-card {
@@ -13,6 +15,13 @@
 }
 
 .trending-product-card {
+    position: relative;
+    width:370px;
+    height: 370px;
+    margin-bottom: 30px;
+}
+
+.all-product-card {
     position: relative;
     width:370px;
     height: 370px;
@@ -73,7 +82,8 @@
 }
 
 .new-product-card:hover .description-product,
-.trending-product-card:hover .description-product {
+.trending-product-card:hover .description-product,
+.all-product-card:hover .description-product {
     display: block;
 }
 

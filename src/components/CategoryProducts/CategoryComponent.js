@@ -4,8 +4,8 @@ import ProductContainer from '../../containers/Products/ProductContainer';
 
 function CategoryComponent(props) {
   return (
-    <div className="category-product padding-site">
-      <div className="head-category">
+    <div className="category-product">
+      <div className="head-category padding-site">
         <p className="name-category">{props.nameCategory}</p>
         <a href="#" className="explore-all">explore all</a>
       </div>

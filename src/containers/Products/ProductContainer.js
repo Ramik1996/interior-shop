@@ -21,7 +21,7 @@ class ProductContainer extends Component {
       }
     });
     return (
-      <div className="product-content">
+      <div className="product-content padding-site">
         {dateProduct}
       </div>
     )
