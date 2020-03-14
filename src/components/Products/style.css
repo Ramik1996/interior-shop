@@ -7,20 +7,15 @@
     background-color: #ffffff;
 }
 
-.new-product-card {
+.new-product-card,
+.featured-product-card {
     position: relative;
     width: 270px;
     height: 270px;
     margin-bottom: 30px;
 }
 
-.trending-product-card {
-    position: relative;
-    width:370px;
-    height: 370px;
-    margin-bottom: 30px;
-}
-
+.trending-product-card,
 .all-product-card {
     position: relative;
     width:370px;
@@ -83,7 +78,8 @@
 
 .new-product-card:hover .description-product,
 .trending-product-card:hover .description-product,
-.all-product-card:hover .description-product {
+.all-product-card:hover .description-product,
+.featured-product-card:hover .description-product {
     display: block;
 }
 

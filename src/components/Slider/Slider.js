@@ -8,7 +8,7 @@ function Slider(props) {
         <p className="slider-name">{props.name}</p>
         <h2 className="slider-h2">{props.product}</h2>
         <p className="slider-content">{props.description}</p>
-        <button className="button">Order us <span className="arrow">&gt;</span></button>
+        <button className="button">Order<span className="arrow">&gt;</span></button>
       </div>
     </div>
   )

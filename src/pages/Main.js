@@ -6,6 +6,7 @@ import NewProduct from '../components/NewProduct/NewProduct';
 import ExclusiveContainer from '../containers/ExlusiveProduct/ExclusiveContainer';
 import Footer from '../components/Footer/Footer';
 import CategoryComponent from '../components/CategoryProducts/CategoryComponent';
+import NewProductContainer from '../containers/NewProduct/NewProductContainer';
 
 
 function Main() {
@@ -19,7 +20,7 @@ function Main() {
         description="Genuine and artificial leather, as well as textiles. 
         In the form of a filler, polyurethane foam, foam rubber or other similar raw materials are used."
       />
-      <NewProduct />
+      <NewProductContainer />
       <ExclusiveContainer />
       <CategoryComponent 
         nameCategory="Trending product"
