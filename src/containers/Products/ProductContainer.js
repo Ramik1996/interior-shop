@@ -5,17 +5,28 @@ import ProductComponent from '../../components/Products/ProductComponent';
 class ProductContainer extends Component {
   constructor() {
     super()
+    this.state = {
+      imgTest: ''
+    }
+    this.onClick = this.onClick.bind(this);
   }
+
+  onClick(test) {
+    console.log(test);
+  }
+
   render() {
     const dateProduct = dataProducts.map(product => {
       if (product.category.indexOf(this.props.category) !== -1) {
         return (
           <ProductComponent
             key={product.id}
+            id={product.id}
             imgUrl={product.imgUrl}
             name={product.name}
             description={product.description}
             category={this.props.category}
+            onClick={this.onClick} 
           />
         )
       }

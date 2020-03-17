@@ -1,0 +1,40 @@
+.details-product {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
+
+.details-img {
+  width: 570px;
+  height: 570px;
+}
+
+.details {
+  text-align: center;
+  width: 500px;
+  padding: 47px;
+}
+
+.details-name,
+.price {
+  padding-bottom: 30px;
+}
+
+.details-name {
+  font-size: 36px;
+  color: #212121;
+}
+
+.price {
+  font-size: 72px;
+  color: #212121;
+  font-weight: 300;
+}
+
+.details-description {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 16px;
+}
