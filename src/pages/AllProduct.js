@@ -3,7 +3,7 @@ import './style.css';
 import Header from '../components/Header/Header';
 import ProductContainer from '../containers/Products/ProductContainer';
 import ExclusiveContainer from '../containers/ExlusiveProduct/ExclusiveContainer';
-import Footer from '../components/Footer/Footer';
+import FooterContainer from '../containers/FooterContainer/FooterContainer';
 
 function AllProduct() {
   return (
@@ -15,7 +15,7 @@ function AllProduct() {
         category="all-product"
       />
       <ExclusiveContainer />
-      <Footer />
+      <FooterContainer />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {Link} from 'react-router-dom';
 
 function Slider(props) {
   return (
@@ -8,7 +9,7 @@ function Slider(props) {
         <p className="slider-name">{props.name}</p>
         <h2 className="slider-h2">{props.product}</h2>
         <p className="slider-content">{props.description}</p>
-        <button className="button">Order<span className="arrow">&gt;</span></button>
+        <Link to={`/ProductDetails/${props.id}`} className="button">Order<span className="arrow">&gt;</span></Link>
       </div>
     </div>
   )

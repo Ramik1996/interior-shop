@@ -79,6 +79,30 @@ const dataProducts = [
     category: ['all-product', 'trending-product'],
     price: '$44'
   },
+  {
+    id: 11,
+    imgUrl: '/img/product-11.jpg',
+    name: 'Pouf Chair',
+    description: 'Genuine and artificial leather, as well as textiles. In the form of a filler, polyurethane foam, foam rubber or other similar raw materials are used.',
+    category: ['all-product'],
+    price: '$22'
+  },
+  {
+    id: 12,
+    imgUrl: '/img/product-12.jpg',
+    name: 'Office Chair',
+    description: 'Office chair designed for the comfort of long-term work',
+    category: ['all-product'],
+    price: '$49'
+  },
+  {
+    id: 13,
+    imgUrl: '/img/product-13.jpg',
+    name: 'Table',
+    description: 'Convenient round table. Adjustable legs ensure stability even on uneven floors.',
+    category: ['all-product'],
+    price: '$31'
+  }
 ];
 
 export default dataProducts;

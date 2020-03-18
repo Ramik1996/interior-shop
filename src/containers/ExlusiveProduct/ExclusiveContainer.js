@@ -7,6 +7,7 @@ function ExclusiveContainer() {
     return (
       <ExclusiveComponent 
         key={product.id}
+        id={product.id}
         name={product.name}
         imgUrl={product.urlImg}
         header={product.header}

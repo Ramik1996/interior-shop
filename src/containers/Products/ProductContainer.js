@@ -3,18 +3,6 @@ import dataProducts from '../../constant/dataProducts';
 import ProductComponent from '../../components/Products/ProductComponent';
 
 class ProductContainer extends Component {
-  constructor() {
-    super()
-    this.state = {
-      imgTest: ''
-    }
-    this.onClick = this.onClick.bind(this);
-  }
-
-  onClick(test) {
-    console.log(test);
-  }
-
   render() {
     const dateProduct = dataProducts.map(product => {
       if (product.category.indexOf(this.props.category) !== -1) {

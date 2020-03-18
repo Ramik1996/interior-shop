@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import FooterContainer from '../containers/FooterContainer/FooterContainer';
 import ContactContainer from '../containers/ContactInformation/ContactContainer';
 
 function ContactPage() {
@@ -11,7 +11,7 @@ function ContactPage() {
         nameHead="Contact Us"
       />
       <ContactContainer />
-      <Footer />
+      <FooterContainer />
     </div>
   )
 }

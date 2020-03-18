@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {Link} from 'react-router-dom';
 
 function ExclusiveComponent(props) {
   return (
@@ -8,7 +9,7 @@ function ExclusiveComponent(props) {
         <p className="exclusive-head">{props.header}</p>
         <h2 className="exclusive-name">{props.name}</h2>
         <p className="exclusive-description">{props.description}</p>
-        <button className="button">Order<span className="arrow">&gt;</span></button>
+        <Link to={`/ProductDetails/${props.id}`} className="button">Order<span className="arrow">&gt;</span></Link>
       </div>
     </div>
   )

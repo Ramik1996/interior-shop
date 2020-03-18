@@ -4,7 +4,7 @@ import Menu from '../components/Menu/Menu';
 import Slider from '../components/Slider/Slider';
 import NewProduct from '../components/NewProduct/NewProduct';
 import ExclusiveContainer from '../containers/ExlusiveProduct/ExclusiveContainer';
-import Footer from '../components/Footer/Footer';
+import FooterContainer from '../containers/FooterContainer/FooterContainer';
 import CategoryComponent from '../components/CategoryProducts/CategoryComponent';
 import NewProductContainer from '../containers/NewProduct/NewProductContainer';
 
@@ -14,6 +14,7 @@ function Main() {
     <div className="container">
       <Menu />
       <Slider
+        id="11"
         backgroundImg="/img/slider-img.jpg"
         name="trending"
         product="Pouf chair"
@@ -25,13 +26,14 @@ function Main() {
       <CategoryComponent 
         nameCategory="Trending product"
       />
-      <Slider 
+      <Slider
+        id="13" 
         backgroundImg="/img/slider-two.jpg"
         name="hot deal"
         product="Table"
         description="Convenient round table. Adjustable legs ensure stability even on uneven floors."
       />
-      <Footer />
+      <FooterContainer />
     </div>
   );
 }
