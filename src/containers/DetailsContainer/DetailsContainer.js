@@ -4,7 +4,12 @@ import DetailsComponent from '../../components/DetailsComponent/DetailsComponent
 
 class DetailsContainer extends Component {
   constructor() {
-    super()
+    super();
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(test) {
+    alert(`Thanks for your order ${test.product.name}`)
   }
 
   render() {
@@ -14,6 +19,7 @@ class DetailsContainer extends Component {
     return (
       <DetailsComponent 
         product={productId}
+        onClick={this.handleClick}
       /> 
     )
   }
