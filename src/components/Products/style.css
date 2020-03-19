@@ -10,17 +10,35 @@
 .new-product-card,
 .featured-product-card {
     position: relative;
-    width: 270px;
-    height: 270px;
-    margin-bottom: 30px;
+    width: 23%;
+    height: 23%;
+    margin-bottom: 1.5%;
 }
 
 .trending-product-card,
 .all-product-card {
     position: relative;
-    width:370px;
-    height: 370px;
-    margin-bottom: 30px;
+    width: 32%;
+    height: 32%;
+    margin-bottom: 1.5%;
+}
+
+@media screen and (max-width: 1300px) {
+    .new-product-card,
+    .featured-product-card {
+        position: relative;
+        width: 30%;
+        height: 30%;
+        margin-bottom: 1.5%;
+    }
+
+    .trending-product-card,
+    .all-product-card {
+    position: relative;
+    width: 48%;
+    height: 48%;
+    margin-bottom: 3%;
+}
 }
 
 .product-img {

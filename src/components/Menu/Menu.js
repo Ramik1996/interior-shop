@@ -7,12 +7,12 @@ import {
 
 function Menu() {
   return (
-    <div className="header clearfix padding-site">
-      <Link to="/"><img src="/img/logo.svg" /></Link>
-      <div className="menu clearfix">
-        <div className="menu-list"><Link to="/" className="menu-link">home</Link></div>
-        <div className="menu-list"><Link to="/AllProduct" className="menu-link">products</Link></div>
-        <div className="menu-list"><Link to="/ContactPage" className="menu-link">contact</Link></div>
+    <div className="header padding-site">
+      <Link to="/" className="logo"><img src="/img/logo.svg" /></Link>
+      <div className="menu">
+        <Link to="/" className="menu-link">home</Link>
+        <Link to="/AllProduct" className="menu-link">products</Link>
+        <Link to="/ContactPage" className="menu-link">contact</Link>
       </div>
     </div>
   )

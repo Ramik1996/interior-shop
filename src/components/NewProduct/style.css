@@ -52,6 +52,7 @@
   line-height: 1.33;
   letter-spacing: 3.6px;
   padding-top: 18px;
+  outline: 0;
 }
 
 .explore-all:hover {

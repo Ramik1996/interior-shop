@@ -1,21 +1,13 @@
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .header {
+    width: 80%;
     padding-top: 63px;
     position: absolute;
-    width: 1170px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu {
-    float: right;
-}
-
-.menu-list {
-    float: left;
+    display: flex;
 }
 
 .menu-link {
@@ -29,4 +21,9 @@
 
 .menu-link:hover {
     color: #212121;
+}
+
+.logo,
+.menu-link {
+    outline: 0;
 }

@@ -10,7 +10,7 @@ function DetailsComponent(props) {
       <div className="details">
         <h2 className="details-name">{props.product.name}</h2>
         <p className="price">{props.product.price}</p>
-        <button className="button" nameProduct={props.product.name} onClick={() => props.onClick(props)}>Order<span className="arrow">&gt;</span></button>
+        <div className="button" nameProduct={props.product.name} onClick={() => props.onClick(props)}>Order<span className="arrow">&gt;</span></div>
         <p className="details-description">{props.product.description}</p>
       </div>
     </div>

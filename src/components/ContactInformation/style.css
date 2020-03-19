@@ -10,9 +10,19 @@
 .contact-card {
   border: 1px solid #9c9c9c;
   text-align: center;
-  width: 370px;
-  height: 370px;
-  margin-bottom: 30px;
+  width: 32%;
+  height: 32%;
+  margin-bottom: 1.5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-card {
+    border: 1px solid #9c9c9c;
+    text-align: center;
+    width: 48%;
+    height: 48%;
+    margin-bottom: 3%;
+  }
 }
 
 .contact-content {
